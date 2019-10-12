@@ -1,0 +1,111 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* Card section */
+
+.card-img {
+
+	height: 30em;
+	opacity:0.6;
+	
+}
+
+.card-img-top
+{
+	object-fit: cover;
+}
+
+.status-card {
+	
+	height: 3em;
+	width: 10em;
+	  position: absolute;
+	background:white;
+	opacity: 0.7;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 2em;
+	color: black;
+	top: 10%;
+	  left: 50%;
+	transform: translate(-50%, -50%);
+
+	
+	
+}
+
+.orange {
+	  color:rgb(248, 59, 11);
+}
+
+.name-card {
+	position: absolute;
+	  font-size: 2em;
+	  color: white;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+}
+
+.card-img:hover {
+	  opacity: 1;
+}
+.card-img-top:hover .status-card {
+	visibility: hidden;
+}
+.card-img-top:hover .name-card {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.col-lg-2 {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+.col-2 {
+	max-width: none;
+}
+.col-sm-12 {
+	margin-bottom: 2rem;
+}
+.tilte{
+	display:flex;
+	justify-content:center;
+}
+form {
+	margin: 5px;
+	padding: 0px;
+	display: column;
+    justify-content: center;
+    width: 90%;
+}
+div.button_form{
+	display:flex;
+	justify-content:flex-end;
+} 
+div.col-4{
+	display:flex;
+	align-items:s
+}
+footer {
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+footer ul {
+	list-style-type: none;
+}
+footer a {
+	color: white;
+}
+
